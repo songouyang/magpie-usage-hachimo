@@ -1,0 +1,1 @@
+[{"control":"joystick_left","event":"knob.rotate_ccw","action":"host.left","label":"上一页"},{"control":"joystick_right","event":"knob.rotate_cw","action":"host.right","label":"下一页"},{"control":"sw1","event":"button.sw1.short_press","action":"host.previous","label":"上一页"},{"control":"sw2","event":"button.sw2.short_press","action":"host.next","label":"下一页"}]

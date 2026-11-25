@@ -1,0 +1,1 @@
+{"id":"magpie-usage-hachimo","name":"Magpie 用量","version":"1.0.3","kind":"tool","description":"查看 Magpie 的总览、请求、会话和缓存，点击标签或翻页切换。电脑采集器输出本地文件，授权 Python 插件后每 30 秒同步；超过 60 秒标记过期。"}
