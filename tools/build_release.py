@@ -71,7 +71,8 @@ def build(output_dir, petui):
         subprocess.run([str(petui), "validate", str(package)], check=True)
         collector = staging / ("magpie-collector-" + version + ".zip")
         collector_zip(collector)
-        instructions = staging / "使用说明.md"
+        # GitHub normalizes non-ASCII asset names; keep downloadable names portable.
+        instructions = staging / "INSTALL.md"
         instructions.write_text(
             (ROOT / "docs/使用说明.md").read_text(encoding="utf-8").replace("{version}", version),
             encoding="utf-8",

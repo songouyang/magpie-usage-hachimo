@@ -14,7 +14,7 @@
 
 - `magpie-usage-hachimo-1.0.3.hachiapp`：导入 Pet Manager 的组件包。
 - `magpie-collector-1.0.3.zip`：独立采集器，无需安装第三方 Python 依赖。
-- `使用说明.md`：安装说明；`SHA256SUMS.txt`：以上三个文件的 SHA-256 校验和。
+- `INSTALL.md`：中文安装说明；`SHA256SUMS.txt`：以上三个文件的 SHA-256 校验和。
 
 要求 macOS、Python 3.9+、运行中的 Magpie，以及支持 `petui-python-v1` 的 Pet Manager。可用 `~/.claw-pet/authoring/petui tool-info` 检查客户端是否报告 `pythonPlugin: "petui-python-v1"`。
 

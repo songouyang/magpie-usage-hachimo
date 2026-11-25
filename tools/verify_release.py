@@ -72,7 +72,7 @@ def verify(output_dir, petui):
     output_dir = Path(output_dir).resolve()
     package = output_dir / ("magpie-usage-hachimo-" + version + ".hachiapp")
     collector = output_dir / ("magpie-collector-" + version + ".zip")
-    expected_assets = {package.name, collector.name, "使用说明.md"}
+    expected_assets = {package.name, collector.name, "INSTALL.md"}
     sums = {}
     for line in (output_dir / "SHA256SUMS.txt").read_text().splitlines():
         digest, name = line.split("  ", 1)
